@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable docs demo - exposure</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+
+
+
+
+
+	
+
+
+<link rel="stylesheet" href="https://paperdigits.github.io/dtdocs/style.min.c0c467e5192033fbb14a1a630ea6dde13293d24aba6376d253a91e7c7a9ddc25.css">
+
+    </head>
+    <body>
+        
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://paperdigits.github.io/dtdocs/" rel="home" title=".Site.Title">
+	darktable docs demo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+	    
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/lighttable/">
+		    
+                    <span>lighttable</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/darkroom/">
+		    
+                    <span>darkroom</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/preferences/">
+		    
+                    <span>preferences</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            </li>
+        </ul>
+        
+    </div>
+</nav>
+
+
+        <main role="main" class="container">
+
+            
+
+
+
+<article>
+    <h1>
+        exposure
+    </h1>
+
+    <p>Increase or decrease the overall brightness of an image. The module has two modes of operation:</p>
+<dl>
+<dt>manual</dt>
+<dd>Set the <em>exposure</em>, <em>black level</em> and <em>clipping threshold</em> manually</dd>
+<dt>automatic (RAW images only)</dt>
+<dd>Use an analysis of the image&rsquo;s histogram to automatically set the exposure. Darktable automatically selects the exposure compensation that is required to shift the selected <em>percentile</em> to the selected <em>target level</em> (see definitions below). This mode is particularly useful for automatically altering a number of images to have the same exposure. A typical use case of automatic mode is deflickering of time-lapse photographs.</dd>
+</dl>
+<h2 id="module-controls">Module Controls</h2>
+<dl>
+<dt>mode</dt>
+<dd>Choose the mode of operation (automatic/manual)</dd>
+<dt>compensate camera exposure (manual mode)</dt>
+<dd>Automatically remove the camera exposure bias (taken from the image&rsquo;s exif data)</dd>
+<dt>exposure (manual mode)</dt>
+<dd>Increase (move to the right) or decrease (move to the left) the exposure value (EV)</dd>
+<dt>clipping threshold (manual mode)</dt>
+<dd>Define what percentage of bright values are to be clipped in the calculation of the Exposure and Black Level Correction. Use the color picker to sample a portion of the image to be used for the calcuation.</dd>
+<dt>percentile (automatic mode)</dt>
+<dd>Define a location in the histogram to use for automatic exposure correction. A percentile of 50% denotes a position in the histogram where 50% of pixel values are below and 50% of pixel values are above.</dd>
+<dt>target level (automatic mode)</dt>
+<dd>Define the target level for automatic exposure correction (EV) relative to the white point of the camera.</dd>
+<dt>black level correction (manual and automatic modes)</dt>
+<dd>Adjust the black level point to unclip negative RGB values. <em>N.B. Do not use this to add more density in blacks as this can clip near-black colors out of gamut by generating negative RGB values.</em></dd>
+</dl>
+
+
+    
+</article>
+
+
+
+            <footer>
+    <p>
+	&copy; Copyright 2020 Someone or something
+    </p>
+</footer>
+
+
+        </main>
+
+	
+
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/jquery.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/popper.js" type="module"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/bootstrap.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/lunr.js"></script>
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/app.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable docs demo - global tonemap</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+
+
+
+
+
+	
+
+
+<link rel="stylesheet" href="https://paperdigits.github.io/dtdocs/style.min.c0c467e5192033fbb14a1a630ea6dde13293d24aba6376d253a91e7c7a9ddc25.css">
+
+    </head>
+    <body>
+        
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://paperdigits.github.io/dtdocs/" rel="home" title=".Site.Title">
+	darktable docs demo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+	    
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/lighttable/">
+		    
+                    <span>lighttable</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/darkroom/">
+		    
+                    <span>darkroom</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/preferences/">
+		    
+                    <span>preferences</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            </li>
+        </ul>
+        
+    </div>
+</nav>
+
+
+        <main role="main" class="container">
+
+            
+
+
+
+<article>
+    <h1>
+        global tonemap
+    </h1>
+
+    <p>Compress the tonal range of an HDR image into the limited tonal range of a typical LDR output file. Global tonemapping processes each pixel of an HDR image, without taking the local surrounding into account. This is generally faster than local tonemapping, but might lead to less convincing results with very high-dynamic-range scenes.</p>
+<h2 id="module-controls">Module Controls</h2>
+<dl>
+<dt>operator</dt>
+<dd>The operator to use. Reinhard, Filmic and Drago global tonemap operators are available. Depending on the selected operator, different parameters can be adjusted. Some operators are fully self-adjusting, and do not require specific controls.</dd>
+<dt>bias (Drago operator only)</dt>
+<dd>This parameter influences the contrast of the output image. It is an essential parameter for adjusting the compression of high values and the visibility of details in dark areas. A value of 0.85 is recommended as a starting point.</dd>
+<dt>target (Drago operator only)</dt>
+<dd>This is a scale factor to adjust the global image brightness to the brightness of the intended display. It is measured in cd/m, and should match the value of your output device. Higher values lead to a brighter image, while lower values lead to a darker image.</dd>
+<dt>detail (all operators)</dt>
+<dd>This parameter controls how much detail is preserved from the original input image and transferred back into the output image after tonemapping.</dd>
+</dl>
+
+
+    
+</article>
+
+
+
+            <footer>
+    <p>
+	&copy; Copyright 2020 Someone or something
+    </p>
+</footer>
+
+
+        </main>
+
+	
+
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/jquery.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/popper.js" type="module"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/bootstrap.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/lunr.js"></script>
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/app.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable docs demo - color mapping</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+
+
+
+
+
+	
+
+
+<link rel="stylesheet" href="https://paperdigits.github.io/dtdocs/style.min.c0c467e5192033fbb14a1a630ea6dde13293d24aba6376d253a91e7c7a9ddc25.css">
+
+    </head>
+    <body>
+        
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://paperdigits.github.io/dtdocs/" rel="home" title=".Site.Title">
+	darktable docs demo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+	    
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/lighttable/">
+		    
+                    <span>lighttable</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/darkroom/">
+		    
+                    <span>darkroom</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/preferences/">
+		    
+                    <span>preferences</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            </li>
+        </ul>
+        
+    </div>
+</nav>
+
+
+        <main role="main" class="container">
+
+            
+
+
+
+<article>
+    <h1>
+        color mapping
+    </h1>
+
+    <p>Transfer the look and feel of one image to another. This module statistically analyses the color characteristics of a source and target image. The colors of the source image are then mapped to corresponding colors on the target image.</p>
+<p>Two steps are required to use this module:</p>
+<ol>
+<li>Open the source image in darkroom mode and acquire its color characteristics by pressing the “acquire as source” button. A set of color clusters is generated and displayed in the “source clusters” area. Each cluster is represented by a set of color swatches with the mean value in the center surrounded by swatches indicating the variance within that cluster. The clusters are sorted in ascending order by their weight, i.e. the number of pixels that contribute to the clusters.</li>
+<li>Open the target image in darkroom mode. The previously collected source clusters should be stored; if they are not yet displayed, press the button. Now press the “acquire as target” button to generate a corresponding set of color clusters for your target image, which gets displayed in the “target clusters” area.</li>
+</ol>
+<p>When both source and target clusters are collected an automatic color mapping is applied to the target image. In its default settings the overall effect is quite exaggerated. A set of sliders gives you control of the effect&rsquo;s strength. You can also use blending operator <em>normal</em> along with the <em>opacity</em> slider to tame the effect. As the color mapping module comes early in the pixelpipe, you can finetune the colors with later modules.</p>
+<h2 id="module-controls">Module Controls</h2>
+<dl>
+<dt>acquire as source/target</dt>
+<dd>Press these buttons to generate color clusters for the source and target image, respectively. The processing takes a few seconds during which the GUI remains unresponsive.</dd>
+<dt>number of clusters</dt>
+<dd>The number of color clusters to use. If you change this parameter all collected color clusters are reset and need to be acquired anew.</dd>
+<dt>color dominance</dt>
+<dd>This parameter controls the mapping between source and target clusters. At the lowest value mapping is based on color proximity. This typically leads to very subtle effects on the target image. At the maximum value mapping is based on the relative weight of the color clusters – dominant colors of the source image are mapped to dominant colors of the target image. This typically leads to a very bold effect. Intermediate values incrementally shift between these extremes.</dd>
+<dt>histogram equalization</dt>
+<dd>Modify the target image&rsquo;s contrast by matching its histogram with the histogram of the source image. This slider controls the extent of this effect.</dd>
+</dl>
+
+
+    
+</article>
+
+
+
+            <footer>
+    <p>
+	&copy; Copyright 2020 Someone or something
+    </p>
+</footer>
+
+
+        </main>
+
+	
+
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/jquery.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/popper.js" type="module"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/bootstrap.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/lunr.js"></script>
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/app.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/lighttable/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/preferences/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/base_curve/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/bloom/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/chromatic_aberrations/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/color_balance/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/color_contrast/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/color_correction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/color_look_up_table/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/color_mapping/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/color_recostruction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/colorize/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/contrast_brightness_saturation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/defringe/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/demosaic/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/denoise_bilateral_filter/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/denoise_non-local_means/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/exposure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/fill_light/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/framing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/global_tonemap/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/graduated_density/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/grain/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/haze_removal/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/highlight_reconstruction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/highpass/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/hot_pixels/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/input_color_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/invert/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/lens_correction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/levels/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/lowlight_vision/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/lowpass/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/lut_3d/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/monochrome/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/orientation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/output_color_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/raw_black_white_point/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/raw_denoise/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/tags/rotate-orientation-basic-module-group/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/rotate_pixels/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/scale_pixels/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/shadows_and_highlights/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/sharpen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/soften/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/split-toning/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/tone_mapping/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/unbreak_input_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/velvia/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/vibrance/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/vignetting/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/white_balance/</loc>
+  </url>
+  
+  <url>
+    <loc>https://paperdigits.github.io/dtdocs/darkroom/zone_system/</loc>
+  </url>
+  
+</urlset>

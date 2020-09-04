@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable docs demo - levels</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+
+
+
+
+
+	
+
+
+<link rel="stylesheet" href="https://paperdigits.github.io/dtdocs/style.min.c0c467e5192033fbb14a1a630ea6dde13293d24aba6376d253a91e7c7a9ddc25.css">
+
+    </head>
+    <body>
+        
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://paperdigits.github.io/dtdocs/" rel="home" title=".Site.Title">
+	darktable docs demo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+	    
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/lighttable/">
+		    
+                    <span>lighttable</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/darkroom/">
+		    
+                    <span>darkroom</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/preferences/">
+		    
+                    <span>preferences</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            </li>
+        </ul>
+        
+    </div>
+</nav>
+
+
+        <main role="main" class="container">
+
+            
+
+
+
+<article>
+    <h1>
+        levels
+    </h1>
+
+    <p>Adjust black, white and mid-gray points.</p>
+<p>The levels tool offers two modes of operation:</p>
+<dl>
+<dt>manual</dt>
+<dd>The levels tool shows a histogram of the image, and displays three bars with handles. Drag the handles to modify the black, middle gray and white points in absolute values of image lightness (the L value from Lab).</dd>
+<dd>
+<p>Moving the black and white bars to match the left and right borders of the histogram will make the output image span the full available tonal range. This will increase the image&rsquo;s contrast.</p>
+</dd>
+<dd>
+<p>Moving the middle bar will modify the mid-gray tones. Shifting it left will make the image look brighter, shifting it right will make it darker. This is often referred to as changing the image&rsquo;s gamma.</p>
+</dd>
+<dd>
+<p>Three color pickers are available for sampling the black, white and gray points from the image. The &ldquo;auto&rdquo; button auto-adjusts the black and white point and puts the gray point exactly in the mean between them.</p>
+</dd>
+<dt>automatic</dt>
+<dd>the module automatically analyses the histogram of the image, detects the left and right histogram borders, and lets you define the black point, the gray point and the white point in terms of percentiles (<a href="http://en.wikipedia.org/wiki/Percentile">http://en.wikipedia.org/wiki/Percentile</a>) relative to these borders.</dd>
+</dl>
+<p>N.B. Under certain conditions, especially with highly saturated blue light sources, the levels module may produce black pixel artifacts. See the &ldquo;gamut clipping&rdquo; option of the <em>input color profile</em> module for information about how to mitigate this issue.</p>
+<h2 id="module-controls">Module Controls</h2>
+<dl>
+<dt>mode</dt>
+<dd>The mode of operation (automatic or manual).</dd>
+<dt>black (automatic mode only)</dt>
+<dd>The black point in percentiles relative to the left border of the histogram.</dd>
+<dt>gray</dt>
+<dd>The gray point in percentiles relative to the left and right borders of the histogram after having applied the black point and white point corrections</dd>
+<dt>white</dt>
+<dd>The white point in percentiles relative to the right border of the histogram</dd>
+</dl>
+
+
+    
+</article>
+
+
+
+            <footer>
+    <p>
+	&copy; Copyright 2020 Someone or something
+    </p>
+</footer>
+
+
+        </main>
+
+	
+
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/jquery.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/popper.js" type="module"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/bootstrap.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/lunr.js"></script>
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/app.js"></script>
+
+
+    </body>
+</html>

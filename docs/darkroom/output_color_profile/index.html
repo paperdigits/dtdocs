@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable docs demo - output color profile</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+
+
+
+
+
+	
+
+
+<link rel="stylesheet" href="https://paperdigits.github.io/dtdocs/style.min.c0c467e5192033fbb14a1a630ea6dde13293d24aba6376d253a91e7c7a9ddc25.css">
+
+    </head>
+    <body>
+        
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://paperdigits.github.io/dtdocs/" rel="home" title=".Site.Title">
+	darktable docs demo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+	    
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/lighttable/">
+		    
+                    <span>lighttable</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/darkroom/">
+		    
+                    <span>darkroom</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/preferences/">
+		    
+                    <span>preferences</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            </li>
+        </ul>
+        
+    </div>
+</nav>
+
+
+        <main role="main" class="container">
+
+            
+
+
+
+<article>
+    <h1>
+        output color profile
+    </h1>
+
+    <p>This module manages the output profiles for export as well as the rendering intent to be used when mapping between the different color spaces.</p>
+<p>darktable comes with pre-defined profiles <em>sRGB</em>, <em>AdobeRGB</em>, <em>XYZ</em> and <em>linear RGB</em> but you can provide additional profiles by placing them in <code>$DARKTABLE/share/darktable/color/out</code> and <code>$HOME/.config/darktable/color/out</code> (where <code>$DARKTABLE</code> represents the darktable installation directory and <code>$HOME</code> your home directory).</p>
+<p>The output color profile may also be defined within the lighttable <em>export</em> module.</p>
+<h2 id="module-controls">Module Controls</h2>
+<dl>
+<dt>output intent</dt>
+<dd>The rendering intent for output/export. For more details see (<strong>LINK TBC</strong> “Rendering intent”). Rendering intent can only be selected when using LittleCMS2 to apply the output color profile (<strong>LINK TBC</strong> this can be changed in the <em>preferences</em> dialog). If darktable&rsquo;s internal rendering routines are used, this option is hidden.</dd>
+<dt>output profile</dt>
+<dd>The profile used to render colors for output/export. The profile data will be embedded into the output file (if supported by the file format) allowing other applications to correctly interpret its colors. As not all applications are aware of color profiles, the general recommendation is to stick to sRGB unless you know what you are doing and have a good reason.</dd>
+</dl>
+
+
+    
+</article>
+
+
+
+            <footer>
+    <p>
+	&copy; Copyright 2020 Someone or something
+    </p>
+</footer>
+
+
+        </main>
+
+	
+
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/jquery.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/popper.js" type="module"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/bootstrap.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/lunr.js"></script>
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/app.js"></script>
+
+
+    </body>
+</html>

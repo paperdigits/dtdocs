@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable docs demo - white balance</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+
+
+
+
+
+	
+
+
+<link rel="stylesheet" href="https://paperdigits.github.io/dtdocs/style.min.c0c467e5192033fbb14a1a630ea6dde13293d24aba6376d253a91e7c7a9ddc25.css">
+
+    </head>
+    <body>
+        
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://paperdigits.github.io/dtdocs/" rel="home" title=".Site.Title">
+	darktable docs demo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+	    
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/lighttable/">
+		    
+                    <span>lighttable</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/darkroom/">
+		    
+                    <span>darkroom</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/preferences/">
+		    
+                    <span>preferences</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            </li>
+        </ul>
+        
+    </div>
+</nav>
+
+
+        <main role="main" class="container">
+
+            
+
+
+
+<article>
+    <h1>
+        white balance
+    </h1>
+
+    <p>Set the white balance of the image by (a) altering the temperature and tint, (b) defining a value of each (RGB) channel, or (c) choosing from list of predefined white balances.</p>
+<p>The default settings for this module are derived from the image&rsquo;s Exif data.</p>
+<h2 id="module-controls">Module Controls</h2>
+<h3 id="scene-illuminant-temp">scene illuminant temp</h3>
+<p>In this section there are scene illuminanant temperature and tint controls which set the white balace of the image. Click on &lsquo;scene illuminant temp&rsquo; to cycle between 3 different slider color modes.</p>
+<dl>
+<dt>temperature</dt>
+<dd>Set the color temperature in Kelvin.</dd>
+<dt>tint</dt>
+<dd>Alter the color tint of the image, from magenta (value <code>&lt; 1</code>) to green (value <code>&gt; 1</code>)</dd>
+</dl>
+<h3 id="white-balance-presets">white balance presets</h3>
+<dl>
+<dt>setting</dt>
+<dd>Choose from a predetermined list of white balances. The available selections are dervied from the presets available on the camera that was used to take the photograph. The following options are provided in addition to the camera-defined white balance presets.</dd>
+<dd>
+<p><strong>as shot</strong> (default): The white balance as reported by the camera</p>
+</dd>
+<dd>
+<p><strong>from image area</strong>: Draw a rectangle over a neutral color in the image from which the white balance will be automatically calculated</p>
+</dd>
+<dd>
+<p><strong>user modifed</strong>: Most recently modified setting. Adjusting temperature, tint or r/g/b channel coefficients will set any chosen setting to this option. Choosing this setting after trying any other preset will return values to their most recently modified state</p>
+</dd>
+<dd>
+<p><strong>camera reference</strong>: Set the temperate to camera reference white point, which is assumed to be D65 (or ~6502K). The white balance channel multipliers are calculated so that the pure white in the camera colorspace is converted into pure white in sRGB D65 (where pure white means that each color channel has an equal value).</p>
+</dd>
+<dd>
+<p>For convenience the final four modes can also be set by clicking on one of the buttons above the <strong><em>setting</em></strong> drop-down.</p>
+</dd>
+<dt>finetune</dt>
+<dd>Finetune specific white balance preset from camera. Only shown if available. Direction of adjustment is dependent on provided presets. If your camera doesn&rsquo;t have white balance presets available, check <a href="https://github.com/darktable-org/darktable/wiki/White-balance-presets">https://github.com/darktable-org/darktable/wiki/White-balance-presets</a> to see how you can submit your own.</dd>
+</dl>
+<h3 id="channel-coefficients">channel coefficients</h3>
+<p>By default the RGB channel coefficients are hidden. Expand/collapse the channel coefficients section by clicking on either the &lsquo;channel coefficients&rsquo; header or the adjacent &ldquo;arrow&rdquo; button.</p>
+<dl>
+<dt>red/green/blue</dt>
+<dd>Set the value of each RGB channel from <code>0</code> to <code>8</code></dd>
+</dl>
+<h2 id="module-reference">Module reference</h2>
+<h3 id="colored-sliders">colored sliders</h3>
+<h3 id="button-bar">button bar</h3>
+<h3 id="additional-options">additional options</h3>
+
+
+    
+</article>
+
+
+
+            <footer>
+    <p>
+	&copy; Copyright 2020 Someone or something
+    </p>
+</footer>
+
+
+        </main>
+
+	
+
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/jquery.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/popper.js" type="module"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/bootstrap.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/lunr.js"></script>
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/app.js"></script>
+
+
+    </body>
+</html>

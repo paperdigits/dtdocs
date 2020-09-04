@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable docs demo - base curve</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+
+
+
+
+
+	
+
+
+<link rel="stylesheet" href="https://paperdigits.github.io/dtdocs/style.min.c0c467e5192033fbb14a1a630ea6dde13293d24aba6376d253a91e7c7a9ddc25.css">
+
+    </head>
+    <body>
+        
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://paperdigits.github.io/dtdocs/" rel="home" title=".Site.Title">
+	darktable docs demo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+	    
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/lighttable/">
+		    
+                    <span>lighttable</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/darkroom/">
+		    
+                    <span>darkroom</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/preferences/">
+		    
+                    <span>preferences</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            </li>
+        </ul>
+        
+    </div>
+</nav>
+
+
+        <main role="main" class="container">
+
+            
+
+
+
+<article>
+    <h1>
+        base curve
+    </h1>
+
+    <p>Attempt to simulate the in-camera JPEG by applying a characteristic base curve to the image.</p>
+<p>A base curve is defined by two or more nodes. You can move any node to modify the curve. You can also create additional nodes by clicking on a curve segment between two nodes. With Ctrl+click you generate a new node at the x-location of the mouse pointer and the corresponding y-location of the current curve – this adds a node without accidentally modifying the curve. To remove a node drag it outside of the widget area.</p>
+<p><em>darktable</em> comes with a number of base curve presets that mimic the curves of various camera manufacturers. These presets are automatically applied by this module according to the manufacturer ID found in the image&rsquo;s Exif data. The module will be switched on by default if the <em>default pixel workflow</em> is set to &ldquo;display-referred&rdquo; in the <em>processing</em> tab of the <em>preferences</em> dialog. Base curve presets are also available that are adapted to several specific camera models. A second option in the <em>preferences</em> dialog defines whether darktable should by default attempt to apply a camera-specific base curve or the generic manufacturer one. You can also save your own base curve as a user preset.</p>
+<h2 id="module-controls">Module Controls</h2>
+<dl>
+<dt>preserve colors</dt>
+<dd>Choose a method to use to preserve colors when applying contrast.</dd>
+<dt>scale</dt>
+<dd>Choose between “linear” and “logarithmic” view. In the logarithmic view more space is given to the lower values allowing a more fine-grained adjustment of the shadows.</dd>
+<dt>fusion</dt>
+<dd>Trigger the exposure fusion feature (see <a href="https://en.wikipedia.org/wiki/Exposure_Fusion)">https://en.wikipedia.org/wiki/Exposure_Fusion)</a>. This allows you to merge the image with one or two copies of itself after applying the current base curve and boosting its exposure by a selectable number of EV units. The resulting image is thus a combination of two or three different exposures of the original image. Use this feature to compress the dynamic range of extremely underexposed images or for true HDR input. For best results, use the <em>exposure</em> module to apply a suitable adjustment for correctly exposed highlights.</dd>
+<dt>exposure shift (fusion)</dt>
+<dd>The exposure difference between the merged images in EV units (default 1). This slider is only visible if the <em>exposure fusion</em> feature is activated.</dd>
+<dt>exposure bias (fusion)</dt>
+<dd>Determines how the multiple exposures are computed. With a bias of 1 (the default), the image is fused with overexposed copies of itself. With a bias of -1, it is fused with underexposed copies. A bias of 0 attempts to preserve the overall lightness of the image by combining both over- and under-exposed copies of the image. This slider is only visible if the <em>exposure fusion</em> feature is activated.</dd>
+</dl>
+
+
+    
+</article>
+
+
+
+            <footer>
+    <p>
+	&copy; Copyright 2020 Someone or something
+    </p>
+</footer>
+
+
+        </main>
+
+	
+
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/jquery.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/popper.js" type="module"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/bootstrap.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/lunr.js"></script>
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/app.js"></script>
+
+
+    </body>
+</html>

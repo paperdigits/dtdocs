@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>home page on darktable docs demo</title>
+    <link>https://paperdigits.github.io/dtdocs/</link>
+    <description>Recent content in home page on darktable docs demo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://paperdigits.github.io/dtdocs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>base curve</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/base_curve/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/base_curve/</guid>
+      <description>Attempt to simulate the in-camera JPEG by applying a characteristic base curve to the image.
+A base curve is defined by two or more nodes. You can move any node to modify the curve. You can also create additional nodes by clicking on a curve segment between two nodes. With Ctrl+click you generate a new node at the x-location of the mouse pointer and the corresponding y-location of the current curve – this adds a node without accidentally modifying the curve.</description>
+    </item>
+    
+    <item>
+      <title>bloom</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/bloom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/bloom/</guid>
+      <description>Create a soft bloom over the image. This module works by blurring the highlights and then blending them with the original image.
+Module Controls  size The spacial extent of the bloom effect threshold The threshold for the increase in brightness strength The strength of the overlighting for the effect  </description>
+    </item>
+    
+    <item>
+      <title>chromatic aberrations</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/chromatic_aberrations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/chromatic_aberrations/</guid>
+      <description>Correct chromatic aberrations.
+The underlying model assumes as input an uncropped photographic image. The module is therefore likely to fail when you zoom in, as in that case it will only operate the visible portion of the image. This limitation only applies to interactive work and not to the final export.
+This module currently only works for images recorded with a Bayer sensor (which is the sensor used in the majority of cameras).</description>
+    </item>
+    
+    <item>
+      <title>color balance</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/color_balance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/color_balance/</guid>
+      <description>A versatile tool for adjusting the image&amp;rsquo;s color balance. It can be used to revert parasitic color casts or to enhance the visual atmosphere of a picture using color grading, a popular technique in the cinema industry.
+Overview The color balance allows you to shift colors selectively by luminance range: shadows, mid-tones, and highlights. It does so using two different methods:
+ lift, gamma, gain the classic method, which allows a more separated control of shadows versus highlights, slope, offset, power the new standard defined by the American Society of Cinematographers Color Decision List (ASC CDL) and more suited to scene-referred editing.</description>
+    </item>
+    
+    <item>
+      <title>color contrast</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/color_contrast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/color_contrast/</guid>
+      <description>A simplified control for changing the contrast or separation of colors between the green/magenta and blue/yellow axes in Lab color space. Higher values increase color contrast, lower values decrease it.
+Module Controls  green vs. magenta Change the color contrast of green vs. magenta blue vs. yellow Change the color contrast of blue vs. yellow  </description>
+    </item>
+    
+    <item>
+      <title>color correction</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/color_correction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/color_correction/</guid>
+      <description>Modify the global image saturation to give the image a tint or as an alternative method to split-tone the image.
+Module Controls  color board For split toning move the white dot to the desired highlight tint and then select a tint for shadows with the dark spot. For a simple global tint set both spots to the same color. saturation Correct the global saturation.  </description>
+    </item>
+    
+    <item>
+      <title>color look up table</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/color_look_up_table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/color_look_up_table/</guid>
+      <description>A generic color look up table implemented in Lab space. The input is a list of source and target points and the complete mapping is interpolated using splines. The resulting look up tables (LUTs) are editable by hand and can be created using the darktable-chart utility to match given input (such as hald-cluts and RAW/JPEG with in-camera processing pairs). See LINK TBC “Using darktable-chart ” for details.
+Module Controls  color board The color board grid shows a list of colored patches.</description>
+    </item>
+    
+    <item>
+      <title>color mapping</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/color_mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/color_mapping/</guid>
+      <description>Transfer the look and feel of one image to another. This module statistically analyses the color characteristics of a source and target image. The colors of the source image are then mapped to corresponding colors on the target image.
+Two steps are required to use this module:
+ Open the source image in darkroom mode and acquire its color characteristics by pressing the “acquire as source” button. A set of color clusters is generated and displayed in the “source clusters” area.</description>
+    </item>
+    
+    <item>
+      <title>color recostruction</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/color_recostruction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/color_recostruction/</guid>
+      <description>Recover color information in blown-out highlights.
+Due to the nature of digital sensors, overexposed highlights are lacking valid color information. Most frequently they appear neutral white or exhibit some color cast – depending on what other image processing steps are involved. This module can “heal” overexposed highlights by replacing their colors with better fitting ones. The module acts on highlight pixels whose luminance values exceed a user defined threshold. Replacement colors are taken from neighboring pixels.</description>
+    </item>
+    
+    <item>
+      <title>colorize</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/colorize/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/colorize/</guid>
+      <description>Add a solid layer of color to the image.
+Module Controls  hue The hue of the color layer. saturation The saturation of shadow tones. lightness The lightness of the color layer. source mix Controls how the lightness of the input image is mixed with the color layer. Setting this to zero will result in a uniformly colored plane.  </description>
+    </item>
+    
+    <item>
+      <title>contrast brightness saturation</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/contrast_brightness_saturation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/contrast_brightness_saturation/</guid>
+      <description>A very basic tool for adjusting the contrast, brightness and saturation of an image. Please note that a number of other modules provide much more versatile methods of adjusting these parameters.
+All module controls default to a neutral position (zero) and provide the ability to increase or decrease the relevant parameter
+Module Controls  contrast The contrast brightness The brightness saturation The saturation  </description>
+    </item>
+    
+    <item>
+      <title>defringe</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/defringe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/defringe/</guid>
+      <description>Remove color fringing, which often results from Longitudinal Chromatic Aberrations (LCA), also known as Axial Chromatic Aberrations.
+This module uses edge-detection. Where pixels are detected as a fringe, the color is rebuilt from lower-saturated neighboring pixels.
+Module Controls  operation mode global average: This mode is is usually the fastest but might show slightly incorrect previews at high magnification. It might also protect the wrong regions of color too much or too little by comparison with local average.</description>
+    </item>
+    
+    <item>
+      <title>demosaic</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/demosaic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/demosaic/</guid>
+      <description>Control how raw files are demosaiced.
+Demosaicing for Bayer Filters The sensor cells of a digital camera are only able to record different levels of lightness and are not color-sensitive. In order to obtain a color image, each cell is covered by a color filter (red, green or blue), meaning that each pixel of the raw image only contains information about a single color channel. These color filters are commonly arranged in a mosaic pattern known as a Bayer filter array.</description>
+    </item>
+    
+    <item>
+      <title>denoise (bilateral filter)</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/denoise_bilateral_filter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/denoise_bilateral_filter/</guid>
+      <description>Denoise high ISO images.
+This module reduces noise in the image while preserving sharp edges. This is accomplished by averaging pixels with their neighbors, taking into account not only the geometric distance but also the distance on the range scale (i.e. differences in the RGB values). The module is particularly effective if one RGB channel is more noisy than the others. In such a case, use the channel mixer module to examine the channels one by one, in order to set the blur intensities accordingly.</description>
+    </item>
+    
+    <item>
+      <title>denoise (non-local means)</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/denoise_non-local_means/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/denoise_non-local_means/</guid>
+      <description>Remove image noise while preserving structure.
+This is accomplished by averaging each pixel with some surrounding pixels in the image. The weight of such a pixel in the averaging process depends on the similarity of its neighborhood with the neighborhood of the pixel being denoised. A patch with a certain size is used to measure that similarity. As denoising is a resource hungry process, it slows down pixelpipe processing significantly. Consider activating this module late in your workflow.</description>
+    </item>
+    
+    <item>
+      <title>exposure</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/exposure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/exposure/</guid>
+      <description>Increase or decrease the overall brightness of an image. The module has two modes of operation:
+ manual Set the exposure, black level and clipping threshold manually automatic (RAW images only) Use an analysis of the image&amp;rsquo;s histogram to automatically set the exposure. Darktable automatically selects the exposure compensation that is required to shift the selected percentile to the selected target level (see definitions below). This mode is particularly useful for automatically altering a number of images to have the same exposure.</description>
+    </item>
+    
+    <item>
+      <title>fill light</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/fill_light/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/fill_light/</guid>
+      <description>Locally modify exposure based on pixel lightness.
+This module pushes exposure by increasing lightness with a Gaussian curve of a specified width, centered on a given lightness.
+Module Controls  exposure The fill-light exposure (EV) center The median lightness impacted by the fill-light. The lightness must be set manually but a color picker can be used to provide a guide. The lightness of the selected point/area is displayed in the gradient bar.</description>
+    </item>
+    
+    <item>
+      <title>framing</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/framing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/framing/</guid>
+      <description>Generate a frame around the image. The frame consists of a border with a user defined color and a frame line inside that border, with a second user defined color. There are various options to control the geometry of the frame.
+Module Controls  border size The size of the frame as a percentage of the underlying full image. aspect The aspect ratio of the final module output (i.e. of the underlying image plus the frame) orientation The orientation of the frame (portrait/landscape).</description>
+    </item>
+    
+    <item>
+      <title>global tonemap</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/global_tonemap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/global_tonemap/</guid>
+      <description>Compress the tonal range of an HDR image into the limited tonal range of a typical LDR output file. Global tonemapping processes each pixel of an HDR image, without taking the local surrounding into account. This is generally faster than local tonemapping, but might lead to less convincing results with very high-dynamic-range scenes.
+Module Controls  operator The operator to use. Reinhard, Filmic and Drago global tonemap operators are available. Depending on the selected operator, different parameters can be adjusted.</description>
+    </item>
+    
+    <item>
+      <title>graduated density</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/graduated_density/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/graduated_density/</guid>
+      <description>Simulate a graduated density filter in order to correct exposure and color in a progressive manner.
+A line is shown on screen allow the position and rotation of the gradient to be manually modified using the mouse.
+This module is known to provoke banding artifacts under certain conditions. You should consider activating the dithering module to alleviate these issues.
+Module Controls  density Set the density of the filter (EV). A low value underexposes slightly whereas a high value creates a strong filter.</description>
+    </item>
+    
+    <item>
+      <title>grain</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/grain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/grain/</guid>
+      <description>Simulate film grain. The grain is processed on the L channel in the Lab color space.
+Module Controls  coarseness The grain size, scaled to simulate an ISO number. strength The strength of the effect.  </description>
+    </item>
+    
+    <item>
+      <title>haze removal</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/haze_removal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/haze_removal/</guid>
+      <description>Automatically reduce the effect of dust and haze in the air, which often reduce the color contrast in landscape photographs. This module may also be employed more generally to give pictures a color boost specifically in low-contrast image regions.
+Haze absorbs light from objects in the scene but it is also a source of diffuse background light. The haze removal module first estimates, for each image region, the amount of haze in the scene.</description>
+    </item>
+    
+    <item>
+      <title>highlight reconstruction</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/highlight_reconstruction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/highlight_reconstruction/</guid>
+      <description>Attempt to reconstruct color information for pixels that are clipped in one or more RGB channel. If these pixels are left partially-clipped it can result in unrealistic colors appearing in the image. For example if both green and blue channels are clipped, those pixels will appear to be red without any highlight reconstruction.
+Three methods of reconstruction are available:
+ clip highlights Clamp all pixels to the white level (i.e. clip the remaining color channels).</description>
+    </item>
+    
+    <item>
+      <title>highpass</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/highpass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/highpass/</guid>
+      <description>A high pass filter. This module is primarily used in combination with a blending operator. For example, try using the module with a blend mode of &amp;ldquo;soft light&amp;rdquo; for high pass sharpening.
+Module Controls  sharpness The sharpness of the filter contrast boost The contrast boost  </description>
+    </item>
+    
+    <item>
+      <title>hot pixels</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/hot_pixels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/hot_pixels/</guid>
+      <description>Automatically detect and eliminate hot pixels. Hot pixels are pixels which failed to record a light level correctly. Detected hot pixels are replaced by an average of their neighbors.
+Module Controls  threshold How strong a pixel&amp;rsquo;s value needs to deviate from its neighbors to be regarded as a hotpixel. strength The strength of blending hotpixels with their surrounding. detect by 3 neighbours Extend the detection of hotpixels: regard a pixel as hot if a minimum of only three (instead of four) neighbor pixels deviate by more than the threshold level.</description>
+    </item>
+    
+    <item>
+      <title>input color profile</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/input_color_profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/input_color_profile/</guid>
+      <description>The input color profile defines how darktable will interpret the colors of your image. You can darktable&amp;rsquo;s auto-allocated input color profile if there is an alternative that more closely matches the original image&amp;rsquo;s color space. The module also allows colors to be confined to a certain gamut to mitigate some (infrequent) color artifacts.
+Module Controls  profile The profile or color matrix to apply. A number of matrices are provided along with an enhanced color matrix for some camera models.</description>
+    </item>
+    
+    <item>
+      <title>invert</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/invert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/invert/</guid>
+      <description>Invert scanned negatives.
+Module Controls  color of film material Clicking on the colored field will open a color selector dialog which offers you a choice of commonly used colors, or allow you to define an RGB color. You can also activate the color picker to take a color probe from your image – preferably from the unexposed border of your negative.  </description>
+    </item>
+    
+    <item>
+      <title>lens correction</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/lens_correction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/lens_correction/</guid>
+      <description>Automatically correct for lens distortion, transversal chromatic aberrations (TCA) and vignetting.
+This module identifies the camera/lens combination from the image&amp;rsquo;s Exif data and uses the external lensfun library (http://lensfun.sourceforge.net) to provide correction parameters for the image.
+If your system&amp;rsquo;s lensfun library has no correction profile for the automatically identified camera/lens combination the controls for the three photometric parameters (below) are replaced with a warning message. You may try to find the right profile yourself by searching for it in the menu.</description>
+    </item>
+    
+    <item>
+      <title>levels</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/levels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/levels/</guid>
+      <description>Adjust black, white and mid-gray points.
+The levels tool offers two modes of operation:
+ manual The levels tool shows a histogram of the image, and displays three bars with handles. Drag the handles to modify the black, middle gray and white points in absolute values of image lightness (the L value from Lab).  Moving the black and white bars to match the left and right borders of the histogram will make the output image span the full available tonal range.</description>
+    </item>
+    
+    <item>
+      <title>lowlight vision</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/lowlight_vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/lowlight_vision/</guid>
+      <description>Simulate human lowlight vision, thus providing the ability to make lowlight pictures look closer to human lowpight perception. It can also be used to perform a day to night conversion.
+The idea is to calculate a scotopic vision (http://en.wikipedia.org/wiki/Scotopic_vision) image which is perceived by rods rather than than cones in the eye under low light. Scotopic lightness then is mixed with photopic value (regular color image pixel) using some blending function.</description>
+    </item>
+    
+    <item>
+      <title>lowpass</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/lowpass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/lowpass/</guid>
+      <description>Apply a lowpass filter (e.g. gaussian blur) to the image, while controlling the output contrast and saturation. This module is normally used with a blending operator. For example, try using the &amp;ldquo;local contrast mask&amp;rdquo; preset with an overlay blending mode.
+Module Controls  radius The radius of the blur soften with The blur algorithm to use gaussian blur: Blur all image channels (L, a, b) bilateral filter: Blur the L channel only, while preserving edges contrast The contrast.</description>
+    </item>
+    
+    <item>
+      <title>lut 3D</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/lut_3d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/lut_3d/</guid>
+      <description>A 3D LUT is a tridimensional table which is used to transform a given RGB value into another RGB value, and is normally used for film simulation and color grading.
+This module accepts .cube and .png (haldclut) files. The 3D LUT data is not saved in the database or the XMP file, but is instead saved to the 3D LUT file path inside the 3D LUT root folder. This means that it is important to back up your 3D LUT folder properly.</description>
+    </item>
+    
+    <item>
+      <title>monochrome</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/monochrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/monochrome/</guid>
+      <description>Quickly convert an image to black &amp;amp; white using a variable color filter.
+Under certain conditions, especially highly saturated blue light sources in the frame, this module may produce black pixel artifacts. See the gamut clipping option of the input color profile module on how to mitigate this issue.
+Tip: First reduce the filter size to concentrate its effect and move it across the hue pallet to find the best filter value for your desired image rendition.</description>
+    </item>
+    
+    <item>
+      <title>orientation</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/orientation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/orientation/</guid>
+      <description>Rotate the image 90 degrees at a time. By default this module sets the orientation to match that stored in the image&amp;rsquo;s exif metadata.
+Module Controls  rotate Double click to reset an image rotation counter-clockwise Rotate the image 90 degrees counter-clockwise clockwise Rotate the image 90 degrees clockwise  </description>
+    </item>
+    
+    <item>
+      <title>output color profile</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/output_color_profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/output_color_profile/</guid>
+      <description>This module manages the output profiles for export as well as the rendering intent to be used when mapping between the different color spaces.
+darktable comes with pre-defined profiles sRGB, AdobeRGB, XYZ and linear RGB but you can provide additional profiles by placing them in $DARKTABLE/share/darktable/color/out and $HOME/.config/darktable/color/out (where $DARKTABLE represents the darktable installation directory and $HOME your home directory).
+The output color profile may also be defined within the lighttable export module.</description>
+    </item>
+    
+    <item>
+      <title>raw black/white point</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/raw_black_white_point/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/raw_black_white_point/</guid>
+      <description>This module is activated automatically for all raw images and defines camera-specific black and white points. Default settings are applied for all supported cameras. Changes to the defaults are normally not required.
+Module Controls  black level 0-3 The camera-specific black level of the four pixels in the RGGB Bayer pattern. Pixels with values lower than the defined level are considered to contain no valid data. white point The camera-specific white level.</description>
+    </item>
+    
+    <item>
+      <title>raw denoise</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/raw_denoise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/raw_denoise/</guid>
+      <description>Perform denoising on raw image data before it is demosaiced. This module is ported from dcraw (http://www.cybercom.net/~dcoffin/dcraw/).
+Module Controls  noise threshold The threshold for noise detection. Higher values lead to stronger noise removal and greater loss of image detail. coarse/fine curves The noise of an image is usually not only fine grain, but also more or less coarse grain. These curves allow the image to be denoised more or less depending on the coarseness of the visible noise.</description>
+    </item>
+    
+    <item>
+      <title>rotate pixels</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/rotate_pixels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/rotate_pixels/</guid>
+      <description>The sensors of some cameras (such as the Fujifilm FinePix S2Pro, F700, and E550) have a diagonally oriented Bayer pattern instead of the usual orthogonal layout.
+Without correction this would lead to a tilted image with black corners. This module applies the needed rotation.
+darktable detects images that need correction by their Exif data and automatically activates this module where required. For other images the module always remains disabled.
+The module has no controls.</description>
+    </item>
+    
+    <item>
+      <title>scale pixels</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/scale_pixels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/scale_pixels/</guid>
+      <description>Some cameras (such as the Nikon D1X) have rectangular instead of the usual square sensor cells. Without correction this would lead to distorted images. This module applies the needed scaling.
+darktable detects images that need correction by their Exif data and automatically activates this module where required. For other images the module always remains disabled.
+The module has no controls.</description>
+    </item>
+    
+    <item>
+      <title>shadows and highlights</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/shadows_and_highlights/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/shadows_and_highlights/</guid>
+      <description>Modify the tonal range of the shadows and highlights of an image by enhancing local contrast.
+Module Controls  shadows Control the effect on shadows. Positive values will lighten shadows while negative values will darken them. highlights Control the effect on highlights. Negative values will darken highlights while positive values will lighten them. white point adjustment By default the algorithm of this modules leaves the black and white points untouched. In some cases an image might contain tonal variations beyond the white point, i.</description>
+    </item>
+    
+    <item>
+      <title>sharpen</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/sharpen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/sharpen/</guid>
+      <description>Sharpen the details in the image using a standard UnSharp Mask (USM). This module works by increasing the contrast around edges thereby enhancing the impression of sharpness of an image. This module is applied to the L-channel in Lab color space.
+Module Controls  radius USM applies a gaussian blur to the image as part of its algorithm. This parameter controls the radius of that blur which, in turn, defines the spatial extent of the edge enhancement.</description>
+    </item>
+    
+    <item>
+      <title>soften</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/soften/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/soften/</guid>
+      <description>An artistic feature to create a softened image using the Orton effect.
+Michael Orton achieved his results on slide film by using two exposures of the same scene, one well exposed and one overexposed. He then used a darkroom technique to blend these two images into a final image where the overexposed image was blurred.
+This module is a near-copy of Orton&amp;rsquo;s analogue process into the digital domain.
+Module Controls  size The size of blur of the overexposed image, the bigger the size, the softer the result.</description>
+    </item>
+    
+    <item>
+      <title>split-toning</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/split-toning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/split-toning/</guid>
+      <description>Create a two color linear toning effect where the shadows and highlights are represented by two different colors.
+The split-toning module does not convert images to black and white and has limited benefits on color images. In order to do traditional split-toning, the input to this module should therefore be monochrome.
+Module Parameters  shadows and highlights color Set the desired hue and saturation for both shadows and highlights. Clicking on the colored squares will open a color selector dialog which offers you a choice of commonly used colors, or allows you to define a color in RGB color space.</description>
+    </item>
+    
+    <item>
+      <title>tone mapping</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/tone_mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/tone_mapping/</guid>
+      <description>Compress the tonal range of HDR images, so they fit into the limits of a normal, low dynamic range image, using Durand&amp;rsquo;s 2002 algorithm.
+The underlying algorithm uses a bilateral filter to decompose an image into a coarse base layer and a detail layer. The contrast of the base layer is compressed, while the detail layer is preserved, then both layers are re-combined.
+Module Controls  contrast compression The contrast compression level of the base layer.</description>
+    </item>
+    
+    <item>
+      <title>unbreak input profile</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/unbreak_input_profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/unbreak_input_profile/</guid>
+      <description>Add a correction curve to image data, which is required if you have selected certain input profiles in the input color profile module.
+If you decide to use an ICC profile from the camera manufacturer in the input color profile module, a correction curve frequently needs to be pre-applied to image data to prevent the final output from looking too dark. This extra processing is not required if you use darktable&amp;rsquo;s standard or enhanced color matrices.</description>
+    </item>
+    
+    <item>
+      <title>velvia</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/velvia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/velvia/</guid>
+      <description>Enhance image saturation. This module will affect pixels with low saturation more than pixels with high saturation. N.B. I&amp;rsquo;ve changed this from the manual, which currently states that velvia effects high-saturation pixels more. Please can someone confirm.
+Module Controls  strength The strength of the effect mid-tones bias Reduce the effect on mid-tones in order to avoid unnatural skin tones. Reducing the mid-tone bias reduces mid-tone protection and makes the overall velvia effect stronger.</description>
+    </item>
+    
+    <item>
+      <title>vibrance</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/vibrance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/vibrance/</guid>
+      <description>Saturate and reduce the lightness of the most saturated pixels to make the colors more vivid.
+Module Controls  vibrance The amount of vibrance to apply to the image.  </description>
+    </item>
+    
+    <item>
+      <title>vignetting</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/vignetting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/vignetting/</guid>
+      <description>Apply a vignetting effect to the image. Vignetting is a modification of the brightness &amp;amp; saturation at the borders of the image in a specified shape. Many of the parameters listed belowcan also be modified with a graphical control that overlays the image when the module has focus, showing the shape and extent of the effect.
+This module is known to provoke banding artifacts under certain conditions; you should consider also activating the dithering module to alleviate this.</description>
+    </item>
+    
+    <item>
+      <title>white balance</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/white_balance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/white_balance/</guid>
+      <description>Set the white balance of the image by (a) altering the temperature and tint, (b) defining a value of each (RGB) channel, or (c) choosing from list of predefined white balances.
+The default settings for this module are derived from the image&amp;rsquo;s Exif data.
+Module Controls scene illuminant temp In this section there are scene illuminanant temperature and tint controls which set the white balace of the image. Click on &amp;lsquo;scene illuminant temp&amp;rsquo; to cycle between 3 different slider color modes.</description>
+    </item>
+    
+    <item>
+      <title>zone system</title>
+      <link>https://paperdigits.github.io/dtdocs/darkroom/zone_system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paperdigits.github.io/dtdocs/darkroom/zone_system/</guid>
+      <description>Adjust the lightness of an image using Ansel Adams&amp;rsquo; zone system.
+The lightness of the image (the L channel in Lab color space) is divided into a number of zones ranging from pure black to pure white. These zones are displayed in a zonebar beneath a preview image. The number of zones can be changed by mouse-scrolling on that bar (default 10 zones).
+The zonebar is split horizontally with the lower part showing the zones of the module&amp;rsquo;s input and the upper part the zones of the module&amp;rsquo;s output.</description>
+    </item>
+    
+  </channel>
+</rss>

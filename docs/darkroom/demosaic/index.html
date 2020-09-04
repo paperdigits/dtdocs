@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable docs demo - demosaic</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+
+
+
+
+
+	
+
+
+<link rel="stylesheet" href="https://paperdigits.github.io/dtdocs/style.min.c0c467e5192033fbb14a1a630ea6dde13293d24aba6376d253a91e7c7a9ddc25.css">
+
+    </head>
+    <body>
+        
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://paperdigits.github.io/dtdocs/" rel="home" title=".Site.Title">
+	darktable docs demo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+	    
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/lighttable/">
+		    
+                    <span>lighttable</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/darkroom/">
+		    
+                    <span>darkroom</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            <li class="nav-item">
+                <a class="nav-link" href="/dtdocs/preferences/">
+		    
+                    <span>preferences</span>
+		    <span class="sr-only">(Current)</span>
+		</a>
+		
+            </li>
+        </ul>
+        
+    </div>
+</nav>
+
+
+        <main role="main" class="container">
+
+            
+
+
+
+<article>
+    <h1>
+        demosaic
+    </h1>
+
+    <p>Control how raw files are demosaiced.</p>
+<h3 id="demosaicing-for-bayer-filters">Demosaicing for Bayer Filters</h3>
+<p>The sensor cells of a digital camera are only able to record different levels of lightness and are not color-sensitive. In order to obtain a color image, each cell is covered by a color filter (red, green or blue), meaning that each pixel of the raw image only contains information about a single color channel. These color filters are commonly arranged in a mosaic pattern known as a Bayer filter array. The demosaic algorithm reconstructs the missing color channels by interpolation with data of the neighboring pixels. For further reading see the Wikipedia article on the Bayer filter (<a href="http://en.wikipedia.org/wiki/Bayer_filter)">http://en.wikipedia.org/wiki/Bayer_filter)</a>.</p>
+<p>Interpolation is prone to produce artifacts, typically visible as moiré-like patterns when zooming into the image (<a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern)">https://en.wikipedia.org/wiki/Moir%C3%A9_pattern)</a>. Various demosaic algorithms have been developed in an attempt to overcome these artifacts. Currently darktable supports <em>PPG</em>, <em>AMAZE</em>, and <em>VNG4</em> demosaic algorithms for Bayer filters. <em>AMAZE</em> is reported to sometimes give slightly better results. However, since <em>AMAZE</em> is significantly slower, darktable uses <em>PPG</em> by default. <em>VNG4</em> produces the softest results of the three algorithms, but if you see &ldquo;maze&rdquo; artifacts with the other algorithms, try <em>VNG4</em> to eliminate them.</p>
+<h3 id="sensors-without-bayer-filters">Sensors Without Bayer Filters</h3>
+<p>There are a few cameras whose sensors do not use a Bayer filter. Cameras with an &ldquo;X-Trans&rdquo; sensor have their own set of demosaicing algorithms. The default algorithm for X-Trans sensors is <em>Markesteijn 1-pass</em>, which produces fairly good results. For slightly better quality (at the cost of much slower processing), choose <em>Markesteijn 3-pass</em>. Though <em>VNG</em> demosaic is faster than <em>Markesteijn 1-pass</em> on certain computers, it is more prone to demosaicing artifacts.</p>
+<p>Additionally, darktable supports a special <em>passthrough (monochrome)</em> demosaicing algorithm. This algorithm is only useful for cameras which have had the color filter array physically removed from the sensor (e.g. scratched off). Normally, demosaic algorithms reconstruct the missing color channels by interpolation with data of the neighboring pixels. However, if the color filter array is not present, there is nothing to interpolate, so this algorithm simply sets all the color channels to the same value, resulting in a monochrome image. This method guarantees that there are none of the interpolation artifacts the standard demosaicing algorithms might produce.</p>
+<h2 id="module-controls">Module Controls</h2>
+<dl>
+<dt>method</dt>
+<dd>The demosaic algorithm to use (see above)</dd>
+<dt>edge threshold (<em>PPG</em> only)</dt>
+<dd>Set the threshold for an additional median pass. Defaults to “0” which disables median filtering.</dd>
+<dt>color smoothing</dt>
+<dd>Activate a number of additional color smoothing passes. Defaults to “off”.</dd>
+<dt>match greens</dt>
+<dd>In some cameras the green filters have slightly varying properties. This parameter adds an additional equalization step to suppress artifacts. Available options are “disabled”, “local average”, “full average” and “full and local average”. This option is not shown for X-Trans sensors.</dd>
+</dl>
+
+
+    
+</article>
+
+
+
+            <footer>
+    <p>
+	&copy; Copyright 2020 Someone or something
+    </p>
+</footer>
+
+
+        </main>
+
+	
+
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/jquery.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/popper.js" type="module"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/bootstrap.js"></script>
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/lunr.js"></script>
+
+
+
+
+
+<script src="https://paperdigits.github.io/dtdocs/js/app.js"></script>
+
+
+    </body>
+</html>
