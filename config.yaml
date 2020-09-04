@@ -1,0 +1,5 @@
+baseURL: https://paperdigits.github.io/dtdocs/
+languageCode: en-us
+title: darktable docs demo
+theme: hugo-bootstrap-bare
+publishDir: docs

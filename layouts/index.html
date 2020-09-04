@@ -1,0 +1,35 @@
+{{ define "title" }}{{ .Title | markdownify }} | {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+{{ $dateFormat := default "Mon Jan 2, 2006" (index .Site.Params "date_format") }}
+
+<section>
+    <ul>
+        {{ range .Data.Pages -}}
+        <li>
+            <a href="{{ .Permalink }}">
+		<span>
+		    {{ .Title }}
+		</span>
+	    </a>
+        </li>
+        {{- end }}
+    </ul>
+</section>
+
+<div>
+
+    {{ .Content }}
+
+    {{ if .IsTranslated }}
+    <h4>{{ i18n "translations" }}</h4>
+    <ul>
+        {{ range .Translations }}
+        <li><a href="{{ .Permalink }}">
+            {{ .Lang }}: {{ .Title }}{{ if .IsPage }}{{ end }}
+        </a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+</div>
+
+{{ end }}
